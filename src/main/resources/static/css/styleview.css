@@ -1,0 +1,44 @@
+.container-expense {
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  .container-expense .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container-expense .form{
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
+  }
+  
+  
+  .container-expense .form-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    /* width: 100%; */
+  }
+  
+  
+  
+  .container-expense .form-div input,
+  .container-expense .form-div textarea {
+    background: white;
+    border: none;
+    width: 65%;
+  }
+
+  .container-expense .form-div textarea{
+    resize: none;
+  }
+  
+  
+  .submit{
+      align-self: end;
+      width: 20%;
+  }

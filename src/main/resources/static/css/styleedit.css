@@ -1,0 +1,45 @@
+
+
+.container-expense {
+  width: 40%;
+  margin: 0 auto;
+}
+
+h1{
+
+color: green;
+}
+
+.container-expense .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-expense .form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+
+.container-expense .form-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  /* width: 100%; */
+}
+
+
+
+.container-expense .form-div input,
+.container-expense .form-div textarea {
+  width: 65%;
+}
+
+
+.submit{
+    align-self: end;
+    width: 20%;
+}
